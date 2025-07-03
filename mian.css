@@ -1,0 +1,301 @@
+/* /* /* .navbar img {
+    width: 70%;
+}
+.navbar{
+    background-color: #1E202B;
+    
+}
+body {
+    background-color: #1E202B;
+}
+.home {
+    background-image:url(img/imgi_8_banner.png);
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+input{
+    background-color: #1E202B !important;
+    color: white !important;
+}
+li{
+    color: white !important;
+}
+.home2{
+    height: 100%;
+    background-color: #1E202B;
+} */
+/* .custom-navbar {
+    background: #1b1d29;
+    border-bottom: none;
+    box-shadow: none;
+  }
+  .custom-navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .custom-navbar .navbar-brand span {
+    color: #fff;
+  }
+  .custom-navbar .navbar-brand small {
+    color: #b0b3c6;
+  }
+  .custom-nav-link {
+    color: #fff !important;
+    font-size: 1.15rem;
+    font-weight: 400;
+    transition: color 0.2s, border 0.2s;
+    border-radius: 24px;
+    padding: 6px 18px !important;
+  }
+  .custom-nav-link.active,
+  .custom-nav-link:focus,
+  .custom-nav-link:hover {
+    color: #00bfff !important;
+    border: 1.5px solid #00bfff;
+    background: transparent;
+  }
+  .custom-navbar .navbar-nav .nav-link.active {
+    border: 1.5px solid #00bfff;
+    color: #00bfff !important;
+    background: transparent;
+  }
+  @media (max-width: 991px) {
+    .custom-navbar .navbar-nav {
+      gap: 0 !important;
+    }
+    .custom-nav-link {
+      margin-bottom: 8px;
+      display: block;
+      text-align: left;
+    }
+  } 
+ */
+body{
+    background-color: #1E202B;
+}
+ .custom-navbar {
+    background: #1b1d29;
+    border-bottom: none;
+    box-shadow: none;
+  }
+  .custom-navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .custom-navbar .navbar-brand span {
+    color: #fff;
+  }
+  .custom-navbar .navbar-brand small {
+    color: #b0b3c6;
+  }
+  .custom-nav-link {
+    color: #fff !important;
+    font-size: 1.15rem;
+    font-weight: 400;
+    transition: color 0.2s, border 0.2s;
+    border-radius: 24px;
+    padding: 6px 18px !important;
+  }
+  .custom-nav-link.active,
+  .custom-nav-link:focus,
+  .custom-nav-link:hover {
+    color: #00bfff !important;
+    border: 1.5px solid #00bfff;
+    background: transparent;
+  }
+  .custom-navbar .navbar-nav .nav-link.active {
+    border: 1.5px solid #00bfff;
+    color: #00bfff !important;
+    background: transparent;
+  }
+  @media (max-width: 991px) {
+    .custom-navbar .navbar-nav {
+      gap: 0 !important;
+    }
+    .custom-nav-link {
+      margin-bottom: 8px;
+      display: block;
+      text-align: left;
+    }
+  }
+ .weather-section-bg {
+    background: url('img/imgi_8_banner.png') center/cover no-repeat;
+  height: 50vh;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 120px;
+  }
+  .weather-search-bar {
+    background: #23243a;
+    border-radius: 40px;
+    padding: 10px 20px;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+  }
+  .weather-search-bar input {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    flex: 1;
+    outline: none;
+  }
+  .weather-search-bar input::placeholder {
+    color: #bbb;
+  }
+  .weather-search-bar button {
+    border-radius: 40px;
+    padding: 8px 36px;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  .weather-cards-row {
+    margin-top: 0;
+    margin-bottom: 0;
+    justify-content: center;
+  }
+  .weather-card2 {
+    background: #31344b;
+    border-radius: 16px;
+    color: #fff;
+    min-height: 370px;
+    margin: 0 0.5rem;
+    padding: 32px 24px 24px 24px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .weather-card2.main {
+    align-items: flex-start;
+    font-size: 2.5rem;
+    flex: 1.2;
+  }
+  .weather-card2 .weather-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+  .weather-card2 .weather-desc {
+    color: #1eb9ff;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    margin-top: 5px;
+  }
+  .weather-card2 .weather-details {
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 18px;
+    display: flex;
+    gap: 18px;
+  }
+  .weather-card2 .weather-details span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 1rem;
+  }
+  .weather-card2 .temp {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .weather-card2 .temp-small {
+    font-size: 1.3rem;
+    color: #bbb;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 991px) {
+    .weather-cards-row {
+      flex-direction: column !important;
+      align-items: center;
+    }
+    .weather-card2 {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+  }
+  /* Footer styles */
+/* filepath: d:\route assigmnet\adham sabry -C45 (Web) Sat&Tue 8Pm-11Pm (Online)-assigment 14-01282885570\mian.css */
+.custom-footer {
+  background: #292b38;
+  padding: 48px 0 24px 0;
+
+}
+.footer-form {
+  background: #23243a;
+  border-radius: 40px;
+  padding: 8px 24px;
+  max-width: 100%;
+  align-items: center;
+  display: flex;
+}
+.footer-input {
+  background: transparent;
+  border: none;
+  color: #b0b3c6;
+  font-size: 1.1rem;
+  border-radius: 40px;
+  box-shadow: none;
+  outline: none;
+  flex: 1;
+}
+.footer-input::placeholder {
+  color: #b0b3c6;
+  opacity: 1;
+}
+.footer-btn {
+  border-radius: 40px;
+  padding: 8px 36px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  background: #00bfff;
+  border: none;
+  color: #fff;
+  box-shadow: 3px 3px 0 #23243a;
+  transition: background 0.2s;
+}
+.footer-btn:hover {
+  background: #009fd6;
+}
+.footer-social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #23243a;
+  color: #00bfff;
+  font-size: 1.5rem;
+  transition: background 0.2s, color 0.2s;
+  text-decoration: none;
+}
+.footer-social-icon:hover {
+  background: #00bfff;
+  color: #23243a;
+}
+.footer-copyright {
+  color: #b0b3c6;
+  font-size: 1.1rem;
+  margin-top: 32px;
+}
+@media (max-width: 767px) {
+  .footer-form {
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+  }
+  .footer-btn {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+  .footer-social {
+    justify-content: center !important;
+    margin-top: 16px;
+  }
+}

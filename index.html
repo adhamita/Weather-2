@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/all.min.css"/>
+  <link rel="stylesheet" href="mian.css"/>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar py-4">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="img/imgi_1_logo@2x.png" alt="Logo" style="height:60px; width:auto; border:2px solid #222; background:#181a23; margin-right:16px;">
+      <div>
+        <span class="fw-bold fs-3">Weather</span><br>
+        <small style="font-size:14px; color:#ccc;">tagline goes here</small>
+      </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav align-items-center gap-4">
+        <li class="nav-item">
+          <a class="nav-link active custom-nav-link px-4" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link custom-nav-link" href="#">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link custom-nav-link" href="#">Live cameras</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link custom-nav-link" href="#">Photos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link custom-nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="weather-section-bg">
+ 
+  <form class="weather-search-bar shadow" id="weatherForm">
+    <input type="text" placeholder="Find your location..." id="cityInput" />
+    <button class="btn btn-info fw-bold" type="submit">Find</button>
+  </form>
+
+<div class="container">
+  <div class="row weather-cards-row d-flex">
+   
+    <div class="col-lg-4 mb-3">
+      <div class="weather-card2 main">
+        <div class="d-flex justify-content-between w-100 mb-2" style="font-size:1.1rem;">
+          <span class="day-name"></span>
+          <span class="date-str"></span>
+        </div>
+        <div class="fs-5 mb-2 location-name"></div>
+        <div class="temp"></div>
+        <img src="" alt="" class="weather-icon border" />
+        <div class="weather-desc"></div>
+        <div class="weather-details mt-2">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- Card 2 (Tomorrow) -->
+    <div class="col-lg-4 mb-3">
+      <div class="weather-card2 text-center">
+        <div class="mb-2 day-name" style="font-size:1.1rem;"></div>
+        <div class="fs-5 mb-2 location-name"></div>
+        <div class="temp"></div>
+        <img src="" alt="" class="weather-icon border" />
+        <div class="weather-desc"></div>
+      </div>
+    </div>
+    <!-- Card 3 (Day after tomorrow) -->
+    <div class="col-lg-4 mb-3">
+      <div class="weather-card2 text-center">
+        <div class="mb-2 day-name" style="font-size:1.1rem;"></div>
+        <div class="fs-5 mb-2 location-name"></div>
+        <div class="temp"></div>
+        <img src="" alt="" class="weather-icon border" />
+        <div class="weather-desc"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<footer class="custom-footer mt-5  pt-5 pb-4"><br><br><br><br><br><br><br><br><br><br>
+<footer class="custom-footer mt-5  pt-5 pb-4"><br><br><br><br><br><br><br><br><br> <br>
+  <div class="container flex-shrink-0">
+    <div class="row align-items-center mb-3">
+      <div class="col-md-8 mb-3 mb-md-0">
+        <form class="footer-form d-flex">
+          <input type="email" class="form-control footer-input" placeholder="Enter your email to subscribe..." />
+          <button class="btn btn-info footer-btn ms-3" type="submit">Subscribe</button>
+        </form>
+      </div>
+      <div class="col-md-4 d-flex justify-content-md-end justify-content-center">
+        <div class="footer-social d-flex gap-3">
+          <a href="#" class="footer-social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="footer-social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="footer-social-icon"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#" class="footer-social-icon"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        <p class="footer-copyright mb-0">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+<br>
+
+
+<script src="main.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+  </body>
