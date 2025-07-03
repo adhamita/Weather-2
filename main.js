@@ -56,7 +56,7 @@ document.getElementById('cityInput').addEventListener('input', function(e) {
   clearTimeout(debounceTimer);
   if (!city) return;
   debounceTimer = setTimeout(() => {
-    fetch(`https://api.weatherapi.com/v1/forecast.json?key=f2ff7b86934840f9a1d172904250107&q=${encodeURIComponent(city)}&days=3`)
+    fetch(`http://api.weatherapi.com/v1/forecast.json?key=f2ff7b86934840f9a1d172904250107&q=${encodeURIComponent(city)}&days=3`)
       .then(res => res.json())
       .then(data => {
         renderWeather(data);
